@@ -1,0 +1,2307 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+*::selection{
+    background-color: #1e1c63;
+    color: #fff;
+ }
+
+body
+{
+    font-family: 'Nunito', sans-serif;
+}
+
+
+a
+{
+    text-decoration: none;
+
+}
+
+.view_book_btn
+ {
+    padding: 8px 20px;
+    border-radius: 5px;
+    color: #fff;
+    background-color: #0a415f;
+    font-size: 16px;
+    margin-top: 10px;
+    border: none;
+    text-transform: capitalize;
+    transition: .5s;
+ }
+
+ 
+.view_book_btn:hover
+{
+   background-color: #ca1d37;
+   color: #fff;
+}
+
+
+/* Sign Up CSs started from here */
+#sign_up input,
+#sign_up select
+{
+    background-color: #E8F0FE;
+}
+
+#sign_up .form-check > input
+{
+    background-color: #fff;
+} 
+
+.message
+{
+    /* position: sticky;
+    top:0; */
+    margin:0 auto;
+    max-width: 100%;
+    padding: 10px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 10000;
+    gap:1.5rem;
+    border-radius: 0;
+    background-color: #de5732d1;
+ }
+ 
+ .message span
+ {
+    font-size: 22px;
+    color: #fff;
+    letter-spacing: 1.3px;
+ }
+ 
+ .message i
+ {
+    cursor: pointer;
+    color: #fff;
+    font-size: 20px;
+ }
+ 
+
+#sign_up .form-check > label a
+{
+
+    color: #d65730;
+    letter-spacing: 1.4px;
+}
+
+#sign_up button,
+#login button
+{
+    letter-spacing: 1.2px;
+    background-color: #1e1c63;
+    color: #fff;
+
+}
+
+#sign_up button:hover,
+#login button:hover
+{
+    color: #fff;
+    background-color: #d65730;
+
+}
+
+
+#sign_up p a,
+#login p a
+{
+
+    color: #d65730;
+    letter-spacing: 1.4px;
+}
+
+/* Sign Up CSs endeed here */
+
+
+
+
+
+
+
+
+
+
+/* Header CSs Started from here */
+
+.top_header .social_icons a
+{
+    color: #081D45;
+    margin: 14px 12px;
+    font-weight: bolder;
+}
+
+.top_header .social_icons a:hover
+{
+    color: #93443d;
+    transform: .5s;
+}
+
+.top_header .singup_login a
+{
+    margin: 5px 5px;
+    padding: 9px 9px;
+    border-radius: 5px;
+    color: #fff;
+    background-color: #f54409;
+}
+
+.top_header .singup_login a span
+{
+    margin-left: 3px;
+}
+
+.header
+{
+    position: sticky;
+    top:0; 
+    left:0; 
+    right:0;
+    z-index: 9999;
+    background-color: #f5f5f5;
+    opacity: .98;
+}
+
+
+.header .logo
+{
+    color: #d65730;
+    font-size: 25px;
+}
+
+.header .logo i
+{
+    color: #054f1a;
+}
+.header .logo:hover
+{
+    color: #0a415f;
+}
+
+.header .navbar-toggler #menu_bars
+{
+    color: #1e1c63;
+}
+
+
+.navbar .navbar-nav .nav-link 
+{
+    color: #05274b;
+    font-size: 18px;
+}
+
+.navbar .navbar-nav .nav-link:hover
+{
+    color: #d65730;
+    transition: .5s;
+}
+
+.navbar .navbar-nav .dropdown .dropdown-menu
+{
+    width: 230px;
+    margin-top:18px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.navbar .navbar-nav .dropdown .dropdown-menu li
+{
+    padding:0 12px;
+}
+.navbar .navbar-nav .dropdown .dropdown-menu li:hover a
+.fa-angle-down
+{
+    transform: rotate(90deg);
+    transition: .5s ease-in-out;
+}
+
+
+.sm-icons 
+{
+    flex-direction: row;
+}
+
+.sm-icons li a i
+{
+    color: #092639;
+    font-weight: bolder;
+}
+
+.sm-icons .nav-link 
+{
+    padding-right: 1em;
+    position: relative;
+}
+
+.sm-icons .dropdown .dropdown-menu
+{
+    width: 15rem;
+    margin-left: -35px;
+    margin-top: 10px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.sm-icons .dropdown .dropdown-menu li
+{
+    margin: 10px 20px;
+
+}
+
+.sm-icons .dropdown .dropdown-menu li .nav-link
+{
+    margin-left: -5px;
+}
+.sm-icons .dropdown .dropdown-menu li
+{
+    margin: 10px 15px;
+}
+
+.sm-icons .dropdown .dropdown-menu li a
+{
+    color: #133343;
+}
+
+
+.sm-icons .dropdown .dropdown-menu li a i
+{
+    font-size: 20px;
+    color: #ba340b;
+    font-weight: bolder;
+    margin-left: 5px;
+}
+
+
+
+.sm-icons .nav-link span
+{
+    color: #c03f1b;
+    position: absolute;
+    margin-top: -10px;
+}
+
+/* Header CSs endeed here */
+
+
+
+
+
+/* Homer Slider Started from here */
+@keyframes fadeIn
+{
+    0%
+    {
+        transform: translateY(-1rem) scale(0);
+        opacity: 0;
+    }
+}
+
+
+
+.home .slide
+{
+    min-height: 100vh;
+    background-size: cover !important;
+    background-position: center !important;
+    position: relative;
+    z-index: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+}
+
+.home .slide::before
+{
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #07294d;
+    z-index: -1;
+    opacity: .7;
+}
+
+.home .slide .content
+{
+    text-align: center;
+    /* display: none; */
+}
+
+.home .swiper-slide-active .content
+{
+    display: inline-block;
+}
+
+
+.home .slide .content h2
+{
+    font-size: 55px;
+    line-height: 84px;
+    letter-spacing: 1.3px;
+    color: #ffffff;
+    margin-bottom: 30px;
+    text-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+    animation:fadeIn 0.4s cubic-bezier(.54,1.3,.63,1.34) .4s backwards;
+}
+
+.home .slide .content p
+{
+    color: #ffffff;
+    font-size: 17px;
+    line-height: 2;
+    font-family: 'Nunito',sans-serif;
+    text-align: center;
+    letter-spacing: 2px;
+    margin: 30px 0;
+    animation:fadeIn 0.4s cubic-bezier(.54,1.3,.63,1.34) .2s backwards;
+}
+
+.home .slide .content .slide_btn
+{
+    margin-top: 20px;
+}
+
+.home .slide .content .slide_btn a
+{
+    color: #fff;
+    background-color: #d65730;
+    font-size: 16px;
+    padding: 16px 40px;
+    line-height: 3;
+    border-radius: 30px;
+    text-transform: capitalize;
+    transition: .5s;
+    letter-spacing: 1.4px;
+    animation:fadeIn 0.4s cubic-bezier(.54,1.3,.63,1.34) .6s backwards;
+}
+
+.home .slide .content .slide_btn a:hover
+{
+    color: #fff;
+    background-color: #c03f1b;
+}
+
+
+.swiper-button-next,
+.swiper-button-prev
+{
+    height: 50px;
+    width: 50px;
+    line-height: 50px;
+    background: none;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    font-weight: bolder;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.home:hover .swiper-button-next,
+.home:hover .swiper-button-prev
+{
+    opacity: 1;
+    visibility: visible;
+    transition: .8s;
+}
+
+.swiper-button-next:hover,
+.swiper-button-prev:hover
+{
+    background-color: #f54409;
+    color: #fff;
+    transition: .5s;
+}
+
+.swiper-button-next::after,
+.swiper-button-prev::after
+{
+    font-size: 16px;
+}
+
+/* Homer Slider ended here */
+
+
+
+
+/* Homer Products ended here */
+
+.products .box
+{
+    border-radius: 5px;
+    background-color: #f5f5f5;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    border: 1px solid #e7ecef;
+    position: relative;
+    margin: 10px 10px;
+}
+ 
+ .products .box img
+ {
+    height: 20rem;
+    width: 18rem;
+    border-radius: 4px;
+ }
+ 
+ .products .box .name
+ {
+    font-size: 20px;
+    color: #081D45;
+    margin: 10px 0;
+    letter-spacing: 1.4px;
+
+ }
+ 
+ .products .box .qty{
+    width: 100%;
+    padding: 10px 22px;
+    border-radius: 5px;
+    margin: 12px 0;
+    font-size: 17px;
+    background-color: #e7ecef;
+    border: 1px solid #d1d3d5;
+ }
+ 
+ .products .box .price
+ {
+    position: absolute;
+    top: 15px; 
+    left: 15px;
+    border-radius: 5px;
+    /* padding: ; */
+    font-size: 18px;
+    color: #fff;
+    background-color: #d65730;
+ }
+
+ .products .box .add_cart_btn
+ {
+    padding: 7px 20px;
+    border-radius: 5px;
+    color: #fff;
+    background-color: #93443d;
+    font-size: 16px;
+    margin-top: 10px;
+    border: none;
+    text-transform: capitalize;
+    transition: .5s;
+ }
+
+
+
+ .products .box .add_cart_btn:hover
+ {
+    background-color: #092639;
+    transition: .5s;
+ }
+
+
+ .products .box .view_book_btn
+{
+    padding: 10px 16px;
+    background-color: #0a415f;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 16px;
+    letter-spacing: 1.2px;
+    transition: .5s ease-in-out; 
+}
+
+.products .box .view_book_btn:hover
+{
+    background-color: #ca1d37;
+}
+
+/* Homer Products ended here */
+
+
+
+
+
+/* Homer Clients review section css started from here */
+/* 
+
+
+/* Homer Clients review section css ended here */
+
+
+
+
+
+/* Homer Question section css started from here */
+.questions
+{
+    background: url(../images/qoute.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    z-index: 0;
+    padding: 70px 0;
+    position: relative;
+    text-align: center;
+}
+
+.questions::before
+{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #10273f;
+    z-index: -1;
+    opacity: .7;
+}
+
+.questions h3
+{
+    color: #fff;
+    font-size: 26px;
+    line-height: 36px;
+    letter-spacing: 1.4px;
+    margin: 8px 0;
+}
+
+.questions p
+{
+    color: #fff;
+    letter-spacing: 1.3px;
+    font-size: 18px;
+    margin: 50px 0;
+}
+
+.questions .contact_btn
+{
+    text-align: center;
+
+}
+
+.questions .contact_btn a
+{
+    color: #fff;
+    background: #ba340b;
+    font-size: 17px;
+    padding: 9px 23px;
+    border-radius: 6px;
+    letter-spacing: 1px;
+}
+
+.questions .contact_btn a:hover
+{
+    background-color: #93443d;
+    letter-spacing: 1.4px;
+    transition: .5s
+}
+
+
+/* Homer Question  section css ended here */
+
+
+
+/* Homer Page Footeer section css Started from here */
+.footer
+{
+    padding: 50px 0;
+    background-color: #021d3a;
+}
+
+.basic_links h4,
+.other_links h4,
+.contact_details h4,
+.soical_media h4
+{
+    color: #fff;
+    margin: 15px 0;
+    font-size: 28px;
+    letter-spacing: 1.3px;
+}
+
+.basic_links ul li,
+.other_links ul li,
+.contact_details ul li,
+.soical_media ul li
+
+{
+    margin: 12px 0;
+    color: #fff;
+}
+
+.basic_links ul li a,
+.other_links ul li a,
+.contact_details ul li a,
+.soical_media ul li a
+
+{
+    color: #fff;
+    font-size: 18px;
+}
+
+.basic_links ul li a:hover,
+.other_links ul li a:hover,
+.soical_media ul li a:hover
+{
+    color: #ba340b;
+    transition: .5s;
+    letter-spacing: 1.5px;
+}
+
+
+.contact_details ul li a i,
+.soical_media ul li a i
+{
+    margin: 0 10px;
+}
+
+
+
+.copyright
+{
+    background-color: #05274b;
+    padding: 30px;
+    /* text-align: center; */
+}
+
+.copyright h3
+{
+    font-size: 17px;
+    color: #fff;
+}
+
+.copyright h3 a
+{
+    color: #e61d0b;
+    
+}
+
+/* Homer Page Footeer section css ended here */
+
+
+
+
+/* About Page Banner section css Started from here */
+
+.about_banner
+{
+    background: url(../images/about_us/sells_books.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 150px 0;
+    position: relative;
+    z-index: 0;
+}
+
+.about_banner::before
+{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #113256;
+    z-index: -1;
+    opacity: .7;
+}
+
+
+.about_banner .content h2
+{
+    margin-top: -40px;
+    color: #fff;
+    letter-spacing: 1.5px;
+    font-size: 44px;
+    margin-bottom: 20px;
+}
+
+.about_banner .content h4
+{
+    color: #fff;
+    font-size: 20px;
+}
+
+.about_banner .content h4 a
+{
+    color: #e61d0b;
+    font-weight: bolder;
+    letter-spacing: 1.6px;
+
+}
+
+.about_banner .content h4 i
+{
+    color: #b584ad;
+    font-weight: bolder;
+}
+
+/* About Page Banner section css ended here */
+
+
+
+
+
+/* About page's About_us section started from here */
+.about_us
+{
+    background: url(../images/about_us/bg_01.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 130px 0;
+    position: relative;
+    z-index: 0;
+}
+
+.about_us::before
+{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #f4eaea;
+    z-index: -1;
+    opacity: .8;
+}
+
+.about_us .content .about_heading
+{
+    color: #ba340b;
+    letter-spacing: 1.5px;
+    font-weight: bold;
+    font-size: 24px;
+    margin-top: -50px;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+}
+
+.content h2
+{
+    margin-top: -20px;
+    font-size: 45px;
+    color: #07294d;
+    line-height: 55px;
+    margin-bottom: 30px;
+}
+
+
+.content p
+{
+    color: #4b5158;
+    font-size: 17px;
+    line-height: 26px;
+    letter-spacing: normal;
+}
+
+.about_us .image_one img
+{
+    height: 413px;
+    width: 350px;
+    margin-top: -50px;
+    border-radius: 8px;
+}
+
+.about_us .image_two_three
+{
+    margin-left: 90px;
+}
+
+
+.about_us .image_two_three .image_1
+{
+    width: 200px;
+    height: 180px;
+    border-radius: 8px;
+    /* margin-top: -50px; */
+    margin-bottom: 40px;
+} 
+
+.about_us .image_two_three .image_2
+{
+    width: 200px;
+    height: 190px;
+    border-radius: 8px;
+}
+
+/* About Page's About_us section css ended here */
+
+
+
+/* About Page's Our_offer section css ended here */
+.our_offer
+{
+    background: url(../images/about_us/offer_bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 120px 0;
+    position: relative;
+    z-index: 0;
+}
+
+.our_offer::before
+{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #071b3d;
+    z-index: -1;
+    opacity: .8;
+}
+
+.our_offer .image_and_content
+{
+    z-index: 9999;
+    margin-top: -160px;
+    background-color: #041933;
+    border-radius: 7px;
+}
+
+.our_offer .image_and_content .image img
+{
+    width: 500px;
+    height: 600px;
+    border-radius: 6px;
+    margin-top: -7px;
+    border: 7px inset #E8F0FE;
+}
+
+.our_offer .image_and_content .content
+{
+    margin-top: -100px;
+}
+
+.our_offer .image_and_content .content span
+{
+    color: #ba340b;
+    text-transform: uppercase;
+    letter-spacing: 1.4px;
+    font-weight: bold;
+}
+
+.our_offer .image_and_content .content h2
+{
+    margin: 23px 0;
+    color: #fff;
+    font-size: 45px;
+    letter-spacing: 1.5px;
+}
+
+.our_offer .image_and_content .content p
+{
+    margin: 30px 0;
+    color: #fff;
+    font-size: 18px;
+    letter-spacing: 1.2px;
+    overflow: hidden;
+    line-height: 2;
+}
+
+.our_offer .image_and_content .content .order_btn
+{
+    background-color: #d65730;
+    padding: 10px 26px;
+    border-radius: 6px;
+    color: #fff;
+    letter-spacing: 1.1px;
+}
+
+.our_offer .image_and_content .content .order_btn:hover
+{
+    background-color: #ba340b;
+    transition: .5s;
+    letter-spacing: 1.4px;
+}
+
+/* About Page's Our_offer section css ended here */
+
+
+
+
+/* About Page's Our Team Member section css ended here */
+
+.our_team
+{
+    background-color: #fff;
+}
+.our_team .heading
+{
+    margin-top: 30px;
+}
+
+.our_team .team_box
+{
+    width: 350px;
+    height: auto;
+    background-color: #d5dee8;
+    border-radius: 6px;
+    overflow: hidden;
+    margin: 10px 0;
+    position: relative;
+    border: 1px solid #d5dee8;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.our_team .team_box:hover
+{
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+
+    transition: .5s;
+}
+
+.our_team .team_box img
+{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    object-fit: cover;
+    
+}
+
+.our_team .team_box img:hover
+{
+
+    transform: scale(1.04); 
+    transition: 1s;
+}
+
+
+.our_team .team_box .overlay
+{
+    position: absolute;
+    background-color: #d65730;
+    padding: 7px 23px;
+    width: 85%;
+    margin-top: -60px;
+    margin-left: 20px;
+    border-radius: 5px;
+    visibility: hidden;
+    opacity: 0;
+    transition: .5s ease-in-out; 
+}
+
+.our_team .team_box:hover .overlay
+{
+    visibility: visible;
+    opacity: 1;
+    transform: translateY(-30px);
+    transform-origin: top;
+}
+
+.our_team .team_box .overlay a i
+{
+    font-size: 18px;
+    color: #fff;
+    margin: 0 15px;
+}
+
+.our_team .team_box .overlay a .fa-facebook-f:hover
+{
+    color: #3b5998;
+    transition: .5s;
+    font-weight: bolder;
+}
+
+.our_team .team_box .overlay a .fa-twitter:hover
+{
+    color: #1DA1F2;
+    transition: .5s;
+    font-weight: bolder;
+}
+
+.our_team .team_box .overlay a .fa-instagram:hover
+{
+    color: #ca1d37;
+    transition: .5s;
+    font-weight: bolder;
+}
+
+.our_team .team_box .overlay a .fa-linkedin-in:hover
+{
+    color: #0072b1;
+    transition: .5s;
+    font-weight: bolder;
+}
+
+.our_team .team_box  h3
+{
+    padding: 23px;
+    font-size: 19px;
+    text-align: center;
+    color: #152a52;
+    font-weight: bold;
+    letter-spacing: 1.3px;
+}
+
+.our_team .team_box p
+{
+    margin-top: -15px;
+    padding-bottom: 15px;
+    font-size: 16px;
+    text-align: center;
+    color: #222;
+}
+
+/* About Page's Our Team Member section css ended here */
+
+
+
+
+
+/* Products Page Banner section css Started from here */
+
+.product_banner
+{
+    background: url(../images/books_shop.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 150px 0;
+    position: relative;
+    z-index: 0;
+}
+
+.product_banner::before
+{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #113256;
+    z-index: -1;
+    opacity: .7;
+}
+
+
+.product_banner .content h2
+{
+    margin-top: -40px;
+    color: #fff;
+    letter-spacing: 1.5px;
+    font-size: 44px;
+    margin-bottom: 20px;
+}
+
+.product_banner .content h4
+{
+    color: #fff;
+    font-size: 20px;
+}
+
+.product_banner .content h4 a
+{
+    color: #e61d0b;
+    font-weight: bolder;
+    letter-spacing: 1.6px;
+
+}
+
+.product_banner .content h4 i
+{
+    color: #b584ad;
+    font-weight: bolder;
+}
+
+/* Products Page Banner section css ended here */
+
+
+
+
+/* Products Details section css satrted from here */
+
+.products_details
+{
+    background-color: #f5f5f5;
+    padding: 100px 0;
+}
+
+.products_details .box
+{
+    width: 23rem;
+    text-align: center;
+    padding: 20px;
+    border-radius: 5px;
+    border: 1px solid #66b0ff;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    position: relative;
+    margin: 5px 6px;
+}
+
+.products_details .box .image
+{
+    height: 23rem;
+    width: 20rem;
+    border-radius: 4px;
+}
+ 
+.products_details .box .name
+{
+    padding: 10px 0;
+    font-size: 21px;
+    letter-spacing: 1.3px;
+    color: #021d3a;
+}
+
+.products_details .box .qty
+{
+    width: 100%;
+    height: 80%;
+    padding: 7px 22px;
+    border-radius: 5px;
+    border: 1px solid #0a415f;
+    margin: 12px 0;
+    font-size: 20px;
+    background-color: #eaeced;
+}
+
+.products_details .box .price
+{
+    position: absolute;
+    top: 50px;
+    left: 20px;
+    border-radius: .5rem;
+    padding:1rem;
+    font-size: 19px;
+    color: #fff;
+    background-color: #fb4545;
+    visibility: hidden;
+    opacity: 0;
+    transition: .5s ease-in-out; 
+}
+
+.products_details .box:hover .price
+{
+    visibility: visible;
+    opacity: 1;
+    transform-origin: top;
+    transform: translateY(-34px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.products_details .box:hover
+{
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+}
+
+.products_details .box .add_cart_btn
+{
+    padding: 7px 16px;
+    background-color: #d65730;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 16px;
+    letter-spacing: 1.2px;
+    border: none;
+    text-transform: capitalize;
+    transition: .5s ease-in-out; 
+}
+
+.products_details .box .add_cart_btn:hover
+{
+    background-color: #ca1d37;
+}
+ 
+.products_details .box .view_book_btn
+{
+    padding: 10px 16px;
+    background-color: #0a415f;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 16px;
+    letter-spacing: 1.2px;
+    transition: .5s ease-in-out; 
+}
+
+.products_details .box .view_book_btn:hover
+{
+    background-color: #ca1d37;
+}
+ 
+/* Products Details section css ended here */
+
+
+
+
+/* Products Preview section css started from here */
+.preview_products
+{
+    background-color: #fff;
+    padding: 50px 0;
+}
+
+.preview_products .preview_box
+{
+    padding: 25px;
+    border-radius: 4px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    background-color: #f0f5f5;
+}
+
+.preview_products .preview_box .preview_image
+{
+    padding: 20px;
+    width: 24rem;
+    border-radius: 5px;
+    border: 1px solid #93a4ad;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+}
+
+.preview_products .preview_box .preview_image img
+{
+    width: 21rem;
+    height: 25rem;
+    border-radius: 5px;
+}
+
+.preview_products .preview_box .preview_content
+{
+    margin-left: -40px;
+    text-align: left;
+    margin-top: -100px;
+}
+
+.preview_products .preview_box .preview_content .book_name
+{
+    font-size: 21px;
+    color: #071b3d;
+    letter-spacing: 1.4px;
+    margin: 6px;px 0;
+}
+
+.preview_products .preview_box .preview_content .writer_name
+{
+    font-size: 35px;
+    letter-spacing: 1.4px;
+    color: #762c0c;
+    margin: 10px 10px;
+    font-weight: bolder;
+}
+
+.preview_products .preview_box .preview_content .discount
+{
+    font-size: 21px;
+    letter-spacing: 2px;
+    color: #021d3a;
+    margin: 10px 0;
+}
+
+.preview_products .preview_box .preview_content .discount del
+{
+    color: #ca1d37;
+}
+
+.preview_products .preview_box .preview_content .description
+{
+    font-size: 18px;
+    color: #666;
+    letter-spacing: 1.4px;
+}
+
+.preview_products .preview_box .preview_content .qty
+{
+    display: block;
+    width: 40%;
+    padding: 5px 14px;
+    border: 1px solid #0072b1;
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
+
+.preview_products .preview_box .preview_content .qty::placeholder
+{
+    margin-left: 6px;
+    text-transform: capitalize;
+    letter-spacing: 1.3px;
+}
+
+
+
+
+
+.preview_products .preview_box .preview_content .add_cart_btn
+{
+    padding: 10px 30px;
+    color: #fff;
+    background-color: #07294d;
+    letter-spacing: 1px;
+    font-size: 16px;
+    border-radius: 6px;
+    border: none;
+    transition: .5s ease-in-out;
+    margin: 10px 5px;
+    
+}
+
+.preview_products .preview_box .preview_content .add_cart_btn:hover
+{
+    background-color: #ca1d37;
+    color: #fff;
+
+}
+
+.preview_products .preview_box .preview_content .back_home
+{
+    padding: 13px 30px;
+    color: #fff;
+    background-color: #ca1d37;
+    letter-spacing: 1px;
+    font-size: 16px;
+    border-radius: 6px;
+    border: none;
+    transition: .5s ease-in-out;
+    margin: 10px 5px;
+}
+
+.preview_products .preview_box .preview_content .back_home:hover
+{
+    background-color: #0a415f;
+    letter-spacing: 1.2px;
+}
+
+/* Products Preview section css ended here */
+
+
+
+
+
+/* Contact Us Details section css started from here */
+
+.contact_us
+{
+    background: url(../images/contact_uss.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 200px 0;
+    position: relative;
+    z-index: 0;
+}
+
+.contact_us::before
+{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #113256;
+    z-index: -1;
+    opacity: .7;
+}
+
+
+.contact_us .content h2
+{
+    margin-top: -40px;
+    color: #fff;
+    letter-spacing: 1.5px;
+    font-size: 44px;
+    margin-bottom: 20px;
+}
+
+.contact_us .content h4
+{
+    color: #fff;
+    font-size: 20px;
+}
+
+.contact_us .content h4 a
+{
+    color: #e61d0b;
+    font-weight: bolder;
+    letter-spacing: 1.6px;
+
+}
+
+.contact_us .content h4 i
+{
+    color: #b584ad;
+    font-weight: bolder;
+}
+
+/* Contact Us Details section css ended here */
+
+
+
+
+/* Contact Us fomr section css started from here */
+.contact_from
+{
+    background-color: #f5f5f5;
+    padding: 130px 0;
+}
+
+.contact_from form
+{
+    margin:0 auto;
+    background-color: #fff;
+    border-radius: 8px;
+    border: 1px solid #d1d3d5;
+    width: 100%;
+    text-align: center;
+    padding: 50px;
+}
+
+.contact_from form h3
+{
+    font-size: 35px;
+    text-transform: capitalize;
+    margin-bottom: 12px;
+    color: #081D45;
+    letter-spacing: 1.3px;
+}
+
+.contact_from form .box
+{
+    margin: 13px 0;
+    width: 100%;
+    border: 1px solid #0a415f;
+    background-color: #f6f8fa;
+    padding: 9px 22px;
+    font-size: 17px;
+    color:v #10273f;
+    border-radius: 6px;
+}
+.contact_from form .box::placeholder
+{
+    text-transform: capitalize;
+    letter-spacing: 1.4px;
+}
+
+.contact_from form textarea
+{
+    height: 20rem;
+    resize: none;
+ 
+}
+
+.contact_from form .sen_btn
+{
+    margin: 20px 0;
+    width: 100%;
+    background-color: #0a415f;
+    color: #fff;
+    padding: 9px 25px;
+    transition: .5s ease-in-out;
+    border-radius: 6px;
+    border: none;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+}
+.contact_from form .sen_btn:hover
+{
+    background-color: #081D45;
+    letter-spacing: 1.4px;
+}
+ 
+/* Contact Us fomr section css ended here */
+
+
+
+
+/* Shopping Cart  section started from here */
+
+.shopping_cart_banner
+{
+    background: url(../images/shopping_cart_bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 140px 0;
+    position: relative;
+    z-index: 0;
+}
+
+.shopping_cart_banner::before
+{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #113256;
+    z-index: -1;
+    opacity: .7;
+}
+
+
+.shopping_cart_banner .content h2
+{
+    margin-top: -40px;
+    color: #fff;
+    letter-spacing: 1.5px;
+    font-size: 44px;
+    margin-bottom: 20px;
+}
+
+.shopping_cart_banner .content h4
+{
+    color: #fff;
+    font-size: 20px;
+}
+
+.shopping_cart_banner .content h4 a
+{
+    color: #e61d0b;
+    font-weight: bolder;
+    letter-spacing: 1.6px;
+
+}
+
+.shopping_cart_banner .content h4 i
+{
+    color: #b584ad;
+    font-weight: bolder;
+}
+
+/* Shopping cart section css ended here */
+
+
+
+
+
+/* Shopping cart Details section css Started from here */
+.shopping_cart
+{
+    background-color: #f5f5f5;
+    padding: 120px;
+}
+.shopping_cart .heading
+{
+    text-align: center;
+    margin-top: -95px;
+    margin-bottom: 50px;
+}
+
+.shopping_cart .heading h2
+{
+    color: #054f1a;
+    letter-spacing: 1.4px;
+}
+
+.shopping_cart .table_body img
+{
+    height: 60px;
+    width: 70px;
+    border-radius: 4px;
+}
+
+
+.shopping_cart .table_body .table_row .cart_quantity
+{
+    width: 100px;
+    border: 1px solid #07294d;
+    padding: 3px 10px;
+    border-radius: 5px;
+}
+
+.shopping_cart .table_body .table_row .update_btn
+{
+    padding: 4px 12px;
+    border: none;
+    border-radius: 1px;
+    background-color: #06aa34;
+    color: white;
+    text-transform: capitalize;
+    font-size: 16px;
+}
+
+.shopping_cart .cart_bottom .sub_total
+{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.shopping_cart .cart_bottom .update_checkout
+{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin: 15px 0;
+}
+
+.shopping_cart .cart_bottom .update_checkout .update_btn
+{
+    padding: 10px 20px;
+    background-color: #05274b;
+    color: #fff;
+    font-size: 16px;
+    border: none;
+    transition: .5s ease-in-out;
+}
+
+.shopping_cart .cart_bottom .update_checkout .update_btn:hover
+{
+    background-color: #ca1d37;
+    letter-spacing: 1.3px;
+
+}
+
+.shopping_cart .cart_bottom .update_checkout .delet_btn
+{
+    padding: 10px 20px;
+    background-color: #05274b;
+    color: #fff;
+    font-size: 16px;
+    transition: .5s ease-in-out;
+}
+
+.shopping_cart .cart_bottom .update_checkout .delet_btn:hover
+{
+    background-color: #ca1d37;
+    letter-spacing: 1.3px;
+}
+
+.shopping_cart .cart_bottom .update_checkout .checkout_btn
+{
+    padding: 10px 20px;
+    background-color: #05274b;
+    color: #fff;
+    font-size: 16px;
+    transition: .5s ease-in-out;
+}
+
+.shopping_cart .cart_bottom .update_checkout .checkout_btn:hover
+{
+    background-color: #ca1d37;
+    letter-spacing: 1.3px;
+
+}
+
+/* Shopping cart Details section css ended here */
+
+
+
+/* Checkout Bannr section css started from here */
+
+.checkout_banner
+{
+    background: url(../images/checkout_bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 140px 0;
+    position: relative;
+    z-index: 0;
+}
+
+.checkout_banner::before
+{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #113256;
+    z-index: -1;
+    opacity: .7;
+}
+
+
+.checkout_banner .content h2
+{
+    margin-top: -40px;
+    color: #fff;
+    letter-spacing: 1.5px;
+    font-size: 44px;
+    margin-bottom: 20px;
+}
+
+.checkout_banner .content h4
+{
+    color: #fff;
+    font-size: 20px;
+}
+
+.checkout_banner .content h4 a
+{
+    color: #e61d0b;
+    font-weight: bolder;
+    letter-spacing: 1.6px;
+
+}
+
+.checkout_banner .content h4 i
+{
+    color: #b584ad;
+    font-weight: bolder;
+}
+
+/* Checkout Bannr  section css ended here */
+
+
+/* Checkout Dsiplay Order  section css started from here */
+.display_order
+{
+    background-color: #f5f5f5;
+    padding: 50px 0;
+}
+
+.display_order .box
+{
+    padding: 40px 50px;
+    background-color: #fff;
+    color: #ca1d37;
+    border-radius: 6px;
+    margin: 20px 20px;
+}
+
+.display_order .box p
+{
+    font-size: 20px;
+}
+
+.display_order .grand_total
+{
+    text-align: center;
+    margin: 20px 0;
+}
+
+.display_order .grand_total span
+{
+    color: #021d3a;
+    font-size: 23px;
+    letter-spacing: 1.23px;
+}
+
+.display_order .empty
+{
+    padding: 10px 30px;
+    border-radius: 6px;
+    background-color: #021d3a;
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    text-align: center;
+}
+
+/* Checkout Bannr  section css ended here */
+
+
+
+
+
+/* Checkout Form  section css started from here */
+.checkout_form
+{
+    padding: 120px;
+    background-color: #fff;
+}
+
+.checkout_form .heading
+{
+    text-align: center;
+    margin-top: -70px;
+    margin-bottom: 40px;
+}
+
+.checkout_form .forms
+{
+    background-color: #f5f5f5;
+    padding: 40px;
+    border-radius: 6px;
+    width: 100%;
+}
+
+.checkout_form .forms .input_box
+{
+    margin: 20px 0;
+    display: block;
+}
+
+.checkout_form .forms .input_box label
+{
+    display: block;
+    margin-bottom: 10px;
+    color: #021d3a;
+    letter-spacing: 1.3px;
+}
+
+.checkout_form .forms .input_box .box
+{
+    display: block;
+    width: 90%;
+    height: auto;
+    padding: 8px 15px;
+    border-radius: 5px;
+    border: 1px solid #d1d3d5;
+    color: #092639;
+}
+
+.checkout_form .forms .input_box .box::placeholder
+{
+    text-transform: capitalize;
+    letter-spacing: 1.4px;
+}
+
+.checkout_form .forms .input_box select
+{
+    display: block;
+    width: 90%;
+    height: auto;
+    padding: 10px 15px;
+    border-radius: 5px;
+    border: 1px solid #d1d3d5;
+    color: #092639;
+}
+
+
+
+.checkout_form .forms  .order_btn
+{
+    color: #fff;
+    transition: .5s ease-in-out;
+    letter-spacing: 1.2px;
+    font-size: 20px;
+    width: 100%;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin: 20px 0;
+    background-color: #07294d;
+    text-transform: capitalize;
+    transition: .5s ease-in-out;
+}
+.checkout_form .forms  .order_btn:hover
+{
+    letter-spacing: 1.4px;
+}
+
+
+/* Checkout Fomr  section css ended here */
+
+
+
+
+
+/* Order banner section css started from here */
+
+.oders
+{
+    background: url(../images/order_book_bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 200px 0;
+    position: relative;
+    z-index: 0;
+}
+
+.oders::before
+{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #113256;
+    z-index: -1;
+    opacity: .7;
+}
+
+
+.oders .content h2
+{
+    margin-top: -40px;
+    color: #fff;
+    letter-spacing: 1.5px;
+    font-size: 44px;
+    margin-bottom: 20px;
+}
+
+.oders .content h4
+{
+    color: #fff;
+    font-size: 20px;
+}
+
+.oders .content h4 a
+{
+    color: #e61d0b;
+    font-weight: bolder;
+    letter-spacing: 1.6px;
+
+}
+
+.oders .content h4 i
+{
+    color: #b584ad;
+    font-weight: bolder;
+}
+
+/* Order Banner  section css ended here */
+
+
+
+
+/* Order Recieved  section css Started from here */
+.order_recieved
+{
+    background-color: #f5f5f5;
+    padding: 150px 0;
+}
+
+.order_recieved .heading
+{
+    text-align: center;
+    margin-top: -100px;
+    margin-bottom: 50px;
+}
+
+.order_recieved .heading h2
+{
+    color: #054f1a;
+    letter-spacing: 1.4px;
+}
+
+.order_recieved .box
+{
+    border-radius: 6px;
+    border: 1px solid #07294d;
+    background-color:  #fff;
+    padding: 20px;
+    text-transform: capitalize;
+}
+
+.order_recieved .box p
+{
+    padding:1rem 0;
+    font-size: 19px;
+    color: #021d3a;
+}
+
+.order_recieved .box span
+{
+    color: #ca1d37;
+    letter-spacing: 1.4px;
+    font-weight: bold;
+    
+}
+
+.order_recieved .empty
+{
+    background-color: #66b0ff;
+    padding: 10px 30px;
+    text-align: center;
+    color: #fff;
+    font-size: 22px;
+    text-transform: capitalize;
+}
+
+/* Order Recieved  section css ended here */
+
+
+
+
+
+/* Search page's banner section css started from here */
+
+.search_banner
+{
+    background: url(../images/search_bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 140px 0;
+    position: relative;
+    z-index: 0;
+}
+
+.search_banner::before
+{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #113256;
+    z-index: -1;
+    opacity: .7;
+}
+
+
+.search_banner .content h2
+{
+    margin-top: -40px;
+    color: #fff;
+    letter-spacing: 1.5px;
+    font-size: 44px;
+    margin-bottom: 20px;
+}
+
+.search_banner .content h4
+{
+    color: #fff;
+    font-size: 20px;
+}
+
+.search_banner .content h4 a
+{
+    color: #e61d0b;
+    font-weight: bolder;
+    letter-spacing: 1.6px;
+
+}
+
+.search_banner .content h4 i
+{
+    color: #b584ad;
+    font-weight: bolder;
+}
+
+/* Search page's banner section css ended here */
+
+
+
+
+/* Search page's search Box section css ended here */
+.search_box
+{
+    padding: 30px;
+    background-color: #f4f4f4;
+}
+
+.search_box form
+{
+    max-width: 1200px;
+    margin:0 auto;
+    display: flex;
+    gap:1rem;
+}
+
+.search_box form .box
+{
+    width: 100%;
+    padding: 10px 20px;
+    border: 1px solid #1DA1F2;
+    font-size: 20px;
+    color:  #041933;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+.search_box form .search_btn
+{
+    padding: 10px 20px;
+    background-color: #e75834;
+    transition: .5s ease-in-out;
+    border-radius: 5px;
+    border: none;
+    text-transform: capitalize;
+    color: #fff;
+    font-size: 20px;
+}
+
+.search_box form .search_btn:hover
+{
+    background-color: #ca1d37;
+}
+
+/* Search page's search Box section css ended here */
+
+
+
+
+
+/* Search page's Show search result section css started from here */
+
+
+.show_result
+{
+    background-color: #f5f5f5;
+    padding: 100px 0;
+}
+
+.show_result .box
+{
+    width: 23rem;
+    text-align: center;
+    padding: 20px;
+    border-radius: 5px;
+    border: 1px solid #66b0ff;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    position: relative;
+    margin: 5px 6px;
+}
+
+.show_result .box .image
+{
+    height: 23rem;
+    width: 20rem;
+    border-radius: 4px;
+}
+ 
+.show_result .box .name
+{
+    padding: 10px 0;
+    font-size: 21px;
+    letter-spacing: 1.3px;
+    color: #021d3a;
+}
+
+.show_result .box .qty
+{
+    width: 100%;
+    height: 80%;
+    padding: 7px 22px;
+    border-radius: 5px;
+    border: 1px solid #0a415f;
+    margin: 12px 0;
+    font-size: 20px;
+    background-color: #eaeced;
+}
+
+.show_result .box .price
+{
+    position: absolute;
+    top: 50px;
+    left: 20px;
+    border-radius: .5rem;
+    padding:1rem;
+    font-size: 19px;
+    color: #fff;
+    background-color: #fb4545;
+    visibility: hidden;
+    opacity: 0;
+    transition: .5s ease-in-out; 
+}
+
+.show_result .box:hover .price
+{
+    visibility: visible;
+    opacity: 1;
+    transform-origin: top;
+    transform: translateY(-34px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.show_result .box:hover
+{
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+}
+
+.show_result .box .add_cart_btn
+{
+    padding: 7px 16px;
+    background-color: #d65730;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 17px;
+    letter-spacing: 1.2px;
+    border: none;
+    text-transform: uppercase;
+    transition: .5s ease-in-out; 
+}
+
+.show_result .box .add_cart_btn:hover
+{
+    background-color: #ca1d37;
+}
+ 
+.show_result .box .donwload_btn
+{
+    padding: 11px 16px;
+    background-color: #0a415f;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 17px;
+    letter-spacing: 1.2px;
+    transition: .5s ease-in-out; 
+}
+
+.show_result .box .donwload_btn:hover
+{
+    background-color: #081D45;
+}
+ 
+.show_result .empty
+{
+    padding: 10px 20px;
+    color: #fff;
+    font-size: 20px;
+    border-radius: 5px;
+    text-transform: capitalize;
+    text-align: center;
+    letter-spacing: 1.5px;
+}
+
+
+/* Search page's show search result section css ended here */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Scrolling Top Btn's css here  */
+
+#top_scroll
+{
+    position: fixed;
+    top: -100%;
+    right:2rem;
+    padding: 10px 18px;
+    font-size: 30px;
+    background: #ff4500;
+    color:#fff;
+    border-radius: 6px;
+    transition: 1s linear;
+    z-index: 1000;
+}
+
+#top_scroll.active
+{
+    top:calc(100% - 6rem);
+}

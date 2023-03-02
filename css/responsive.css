@@ -1,0 +1,262 @@
+@media only screen and (min-width: 800px)
+{
+    .dropdown:hover .dropdown-menu
+    {
+        display: block;
+        transition: .5s;
+    }
+
+    
+}
+
+
+
+@media (max-width: 991px)
+{
+    
+    .top_header .social_icons a
+    {
+        color: #081D45;
+        margin: 14px 5px;
+        font-weight: bolder;
+    }
+
+   
+
+    .top_header .singup_login a span
+    {
+        display: none;
+    }
+
+    .home .slide .content h2
+    {
+        font-size: 35px;
+    }
+}
+
+@media (max-width: 770px)
+{
+    .header .menu-navbar-nav 
+    {
+        position: absolute;
+        top: 100%;
+        left: 3%;
+        right: 3%;
+        background-color: #fbf7f7;
+        border-top: .3rem solid #aaa;
+        border-radius: 5px 5px 2px 2px;
+        clip-path: polygon(0 0, 0 0, 0 100%, 0 100%);
+    }
+
+    .header .menu-navbar-nav.active
+    {
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+    }
+}
+
+
+/* About Us About_us section responsive started from css here */
+
+@media  (max-width: 991px)
+{
+    .about_us
+    {
+        text-align: center;
+    }
+    .content h2
+    {
+        font-size: 30px;
+        margin-bottom: 25px;
+    }
+
+    .content p
+    {
+        font-size: 16px;
+        margin-bottom: 30px;
+    }
+
+    .about_us .image_one img
+    {
+        display: block;
+        width: 98%;
+        height: 100%;
+        margin: 0 auto;
+    }
+
+    .about_us .image_one
+    {
+        margin-left: -7px;
+    }
+
+    
+    .about_us .image_two_three
+    {
+        margin-left: 0;
+    }
+
+    
+    .about_us .image_two_three .image_1
+    {
+        display: block;
+        width: 100%;
+        height: 100%;
+        border-radius: 8px;
+        margin-top: 30px;
+        margin-bottom: 40px;
+    } 
+    
+    .about_us .image_two_three .image_2
+    {
+        display: block;
+        width: 100%;
+        height: 100%;
+        border-radius: 8px;
+        margin-top: 30px;
+        margin-bottom: 40px;
+    } 
+
+    .our_offer .image_and_content
+    {
+        margin-top: -90px;
+    }
+
+    .our_offer .image_and_content .content
+    {
+        margin-top: 20px;
+        padding: 30px 23px;
+    }
+
+
+    .our_offer .image_and_content .image img
+    {
+        width: 100%;
+        height: 100%;
+        border-radius: 6px;
+        margin-top: -7px;
+        border: 7px inset #E8F0FE;
+    }
+
+    .our_offer .image_and_content .content h2
+    {
+        font-size: 30px;
+    }
+
+    .our_offer .image_and_content .content p
+    {
+        font-size: 16px;
+    }
+
+}
+
+/* About page's About_us section responsive ended css here */
+
+
+
+/* About page's Our team member section responsive ended css here */
+@media  (max-width: 991px)
+{
+    .our_team .team_box
+    {
+        width: 100%;
+        height: 100%;
+    }
+
+    .our_team .team_box .overlay
+    {
+        width: 90%;
+        margin-top: -60px;
+    }
+
+
+    .our_team .team_box .overlay a i
+    {
+        margin: 0 30px;
+    }
+
+
+    
+}
+
+/* About page's our team member section responsive ended css here */
+
+
+
+/* Products page's Products_Details section responsive ended css here */
+@media  (max-width: 991px)
+{
+    
+    .products_details .box
+    {
+        width: 100%;
+        height: auto;
+       
+    }
+
+    .products_details .box .image
+    {
+        height: auto;
+        width: 96%;
+        
+    }
+
+    .shopping_cart .box
+    {
+        width: 100%;
+        height: auto;
+        
+    }
+
+    .shopping_cart .box img
+    {
+        width: 100%;
+        height: auto;
+    }
+
+    .shopping_cart .box input[type="number"]
+    {
+        width: 100%;
+    }
+
+    .shopping_cart .box .up_btn
+    {
+        width: 100%;
+    }
+
+    .checkout_form .forms
+    {
+        padding:60px;
+        width: 100%;
+    }
+
+    .checkout_form .forms .input_box .box
+    {  
+        width: 100%
+    }
+
+    .preview_products .preview_box .preview_content
+    {
+        text-align: center;
+        margin-top: 40px;
+    }
+
+    .preview_products .preview_box .preview_content .add_cart_btn,
+    .preview_products .preview_box .preview_content .back_home
+    {
+        padding: 7px 20px;
+    }
+
+    .preview_products .preview_box .preview_content .stock
+    {
+        text-align: center;
+    }
+
+    
+    .preview_products .preview_box .preview_content .qty
+    {
+       margin: 10px auto;
+    }
+
+
+}
+
+/* Products page's our Products_details section responsive ended css here */
